@@ -572,7 +572,7 @@ footer .fa.fa-check {
 		max-width: 100%;
 	}
 	.jumbotron1 {
-		padding-top: 0;
+		padding-top: 20%;
 	}
 	.jumbotron1 i.fa.fa-long-arrow-right {
 		left: 170px;
@@ -596,9 +596,12 @@ footer .fa.fa-check {
 	}
 } 
 @media (max-width:320px) {
+	.jumbotron1 {
+		padding-top: 0;		
+	}
 	.buy .fa.fa-windows, .buy .fa.fa-apple {
-		font-size: 18px;
 		position: absolute;
+		font-size: 18px;
 		top: 95%;
 	}
 	footer .email:focus {
